@@ -1,14 +1,6 @@
-.bgimage{
-  background-image: url('./bg_1024.png');
-  background-size:cover;
-}
-.owl {
-  text-align: center;
-}
-
-img {
-  height: 100px;
-  width: 100px;
+.body {
+  position: relative;
+  font-family: "sofia-pro";
 }
 
 .content {
@@ -23,14 +15,28 @@ img {
     margin-top: 15%;
 }
 
-.body {
-  position: relative;
+.bgimage{
+  background-image: url('./bg_1024.png');
+  background-size:cover;
+}
+.owl {
+  text-align: center;
 }
 
+img {
+  height: 90px;
+  width: 90px;
+  margin-bottom: -10px;
+}
+.name {
+  font-size: 35pt;
+}
 .header {
   color: #ffffff;
-  font-family: "sofia-pro";
   text-align: center;
+}
+.hook {
+  font-size: 14pt;
 }
 
 .coming-soon {
@@ -39,5 +45,5 @@ img {
   font-style: italic;
 
   margin-top: 100px;
-  font-size: 12pt;
+  font-size: 10pt;
 }
