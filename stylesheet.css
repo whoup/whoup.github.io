@@ -106,22 +106,12 @@ img {
 }
 
 
-@-webkit-keyframes bounce {
-    0% { -webkit-transform: translateY(0); }
-  100% { -webkit-transform: translateY(-20px); }
-}
-
-@-moz-keyframes bounce {
-    0% { -moz-transform: translateY(0); }
-  100% { -moz-transform: translateY(-20px); }
-}
-
 
 
 #owl-img {
-  -webkit-animation: bounce .3s 6 alternate ease-out;
-  -moz-animation: bounce .3s 6 alternate ease-out;
-
+  -webkit-animation: jump 1.5s ease 0s infinite normal ;
+  animation: jump 1.5s ease 0s infinite normal ;
+}
 @-webkit-keyframes jump {
  0%{
   -webkit-transform: translateY(0);
