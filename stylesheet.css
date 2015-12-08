@@ -1,6 +1,6 @@
 .body {
   position: relative;
-  font-family: 'sofia-pro'
+
 }
 
 .content {
@@ -12,6 +12,7 @@
     height: 100%;
     width: 100%;
 
+    font-family: 'sofia-pro';
     margin-top: 15%;
 }
 
