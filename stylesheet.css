@@ -71,31 +71,31 @@ img {
 
 
 #owl-img {
-  -webkit-animation: jump 1.5s ease 0s infinite normal ;
-  animation: jump 1.5s ease 0s infinite normal ;
+  -webkit-animation: jump 3s ease 0s infinite normal ;
+  animation: jump 3s ease 0s infinite normal ;
 }
 @-webkit-keyframes jump {
  0%{
   -webkit-transform: translateY(0);
   transform: translateY(0);
  }
- 20%{
+ 10%{
   -webkit-transform: translateY(0);
   transform: translateY(0);
  }
- 40%{
+ 20%{
   -webkit-transform: translateY(-30px);
   transform: translateY(-30px);
  }
- 50%{
+ 25%{
   -webkit-transform: translateY(0);
   transform: translateY(0);
  }
- 60%{
+ 30%{
   -webkit-transform: translateY(-15px);
   transform: translateY(-15px);
  }
- 80%{
+ 40%{
   -webkit-transform: translateY(0);
   transform: translateY(0);
  }
@@ -109,19 +109,19 @@ img {
  0%{
   transform: translateY(0);
  }
- 20%{
+ 10%{
   transform: translateY(0);
  }
- 40%{
+ 20%{
   transform: translateY(-30px);
  }
- 50%{
+ 25%{
   transform: translateY(0);
  }
- 60%{
+ 30%{
   transform: translateY(-15px);
  }
- 80%{
+ 40%{
   transform: translateY(0);
  }
  100%{
