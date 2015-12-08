@@ -23,49 +23,11 @@ and (orientation: portrait) {
   .content {
     top: 15%;
   }
-  body {
+  /*body {
     overflow: hidden;
     position: fixed;
-  }
+  }*/
 }
-/*
-  .bgimage{
-    background-image: url('./bg_1024.png');
-    background-size:cover;
-  }
-  .owl {
-    text-align: center;
-  }
-
-  img {
-    height: 200px;
-    width: 200px;
-  }
-
-  .content {
-    position: absolute;
-    top: 50%;
-    height: 10em;
-    margin-top: -5em;
-  }
-
-  .body {
-    position: relative;
-  }
-
-  .header {
-    color: #ffffff;
-    font-family: "sofia-pro";
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .coming-soon {
-    color: #eded00;
-    text-align: center;
-  }
-}
-*/
 .bgimage{
   background-image: url('./bg_1024.png');
   background-size: 100% auto;
