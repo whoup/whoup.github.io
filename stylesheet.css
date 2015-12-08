@@ -1,5 +1,6 @@
 .body {
   position: relative;
+  font-family: 'sofia-pro'
 }
 
 .content {
@@ -16,7 +17,7 @@
 
 .bgimage{
   background-image: url('./bg_1024.png');
-  background-size:cover;
+  background-size: cover;
 }
 .owl {
   text-align: center;
