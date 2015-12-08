@@ -22,7 +22,10 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
   .content {
     top: 15%;
-    overflow-y: hidden;
+  }
+  body {
+    overflow: hidden;
+    position: fixed;
   }
 }
 /*
