@@ -27,7 +27,8 @@
 
 .bgimage{
   background-image: url('./bg_1024.png');
-  background-size: cover;
+  background-size: 100% auto;
+  overflow: hidden;
 }
 .owl {
   text-align: center;
