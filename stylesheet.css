@@ -41,6 +41,7 @@ img {
 }
 .name {
   font-size: 35pt;
+  font-weight: bold;
 }
 .header {
   color: #E7E7E7;
