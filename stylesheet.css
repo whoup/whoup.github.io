@@ -16,19 +16,44 @@
 
 }
 
-  @media screen and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-  .content {
-    display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+@media screen and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  .bgimage{
+    background-image: url('./bg_1024.png');
+    background-size:cover;
+  }
+  .owl {
+    text-align: center;
+  }
 
-    font-family: 'sofia-pro';
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    height: 10em;
+    margin-top: -5em;
+  }
+
+  .body {
+    position: relative;
+  }
+
+  .header {
+    color: #ffffff;
+    font-family: "sofia-pro";
     font-weight: bold;
-    margin-top: 20%;
+    text-align: center;
+  }
+
+  .coming-soon {
+    color: #eded00;
+    text-align: center;
   }
 }
 
