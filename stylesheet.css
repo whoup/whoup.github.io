@@ -17,9 +17,14 @@
 }
 
 @media screen and (min-device-width: 320px)
-and (max-device-width: 480px)
+and (max-device-width: 780px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
+  .content {
+    top: 15%;
+  }
+}
+/*
   .bgimage{
     background-image: url('./bg_1024.png');
     background-size:cover;
@@ -56,7 +61,7 @@ and (orientation: portrait) {
     text-align: center;
   }
 }
-
+*/
 .bgimage{
   background-image: url('./bg_1024.png');
   background-size: 100% auto;
