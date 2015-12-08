@@ -42,7 +42,7 @@ img {
 .name {
   font-size: 35pt;
   font-weight: bold;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 .header {
   color: #E7E7E7;
@@ -50,7 +50,7 @@ img {
 }
 .hook {
   font-size: 14pt;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .coming-soon {
