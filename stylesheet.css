@@ -1,19 +1,63 @@
-.body {
+body {
   position: relative;
   background-color: #000000;
 }
 
 .content {
-
   display: table;
   position: absolute;
   height: 100%;
   width: 100%;
-
   font-family: 'sofia-pro';
   font-weight: bold;
   margin-top: 15%;
 
+}
+
+.inputs {
+  display: inline !important;
+}
+
+.error {
+  border: 1px red solid !important;
+}
+
+.form-field {
+  border-radius: 1px;
+  border-style: none;
+  color: black;
+  font-weight: normal;
+  padding: 5px 8px;
+  display: inline !important;
+}
+input::-webkit-input-placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+input:-moz-placeholder {font-style: italic; font-weight: normal} /*ff*/
+input:-ms-input-placeholder {font-style: italic} /*ie latest */
+input[type=text], input[type=email]  {
+  font-style: normal;
+  font-weight: bold;
+}
+.error {
+  border-color: red;
+  border-style: none;
+}
+.no-focus:focus {
+  outline: none !important;
+}
+.btn-form {
+  max-width: 50%;
+  color: black;
+  background-color: #eded00;
+  border-radius: 1px;
+  border-style: none;
+  padding: 5px 8px 5px 8px;
+  font-style: bold;
+}
+.left-margin {
+  margin-left: 5px;
 }
 
 @media screen and (min-device-width: 320px)

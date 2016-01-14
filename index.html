@@ -9,17 +9,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--tells you to use latest engine-->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--keeps mobile formatting stable-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
     <link rel="stylesheet" type='text/css' href="./stylesheet.css">
     <script src="https://use.typekit.net/jip0qii.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-71757260-1', 'auto');
-  ga('send', 'pageview');
-  </script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-71757260-1', 'auto');
+      ga('send', 'pageview');
+    </script>
     <title>Who Up?</title>
   </head>
   <body class="bgimage">
@@ -30,10 +32,28 @@
         <div class="header">
           <h1 class="name">Who Up?</h1>
           <p class="hook">The first time-based messaging app for night owls</p>
+          <div id="form-wrapper">
+            <form id="signup" class="inputs input-group">
+              <div id="name-div" class="control-group form-field">
+                <input id="name-field" class="form-field no-focus" type="text" placeholder="Name" value="" name="name">
+              </div>
+              <div id="email-div" class="control-group form-field">
+                <input id="email-field" class="form-field no-focus" type="text" placeholder="Email" value="" name="email">
+              </div>
+              <div class="control-group form-field">
+                <button id="submit-button" type="submit" class="btn-form no-focus"> Request Beta</button>
+              </div>
+            </form>
+          </div>
+          <div id="success-message" class="hidden">
+            <button class="btn-form no-focus">thanks!</button>
+          </div>
         </div>
         <div class="coming-soon">
           <p>Coming Soon. Stay Woke.</p>
         </div>
       </div>
+
+    <script src="./custom.js"></script>
   </body>
 </html>
