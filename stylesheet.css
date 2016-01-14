@@ -56,9 +56,6 @@ input[type=text], input[type=email]  {
   padding: 5px 8px 5px 8px;
   font-style: bold;
 }
-.left-margin {
-  margin-left: 3px;
-}
 
 @media screen and (min-device-width: 320px)
 and (max-device-width: 780px)
@@ -107,7 +104,7 @@ img {
 }
 .hook {
   font-size: 14pt;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
 .coming-soon {
