@@ -16,6 +16,7 @@ body {
 
 .inputs {
   display: inline !important;
+  font-size: 13px;
 }
 
 .error {
@@ -23,12 +24,13 @@ body {
 }
 
 .form-field {
-  border-radius: 1px;
   border-style: none;
   color: black;
   font-weight: normal;
   padding: 5px 8px;
   display: inline !important;
+  vertical-align: middle;
+  display: inline-block;
 }
 input::-webkit-input-placeholder {
   font-style: italic;
@@ -55,6 +57,8 @@ input[type=text], input[type=email]  {
   border-style: none;
   padding: 5px 8px 5px 8px;
   font-style: bold;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 @media screen and (min-device-width: 320px)
