@@ -34,6 +34,7 @@ body {
   display: inline !important;
   vertical-align: middle;
   font-size: 13px;
+  border-radius: 0px !important;
 }
 input::-webkit-input-placeholder {
   font-style: italic;
@@ -61,6 +62,7 @@ input[type=text], input[type=email]  {
   font-style: bold;
   vertical-align: middle;
   font-size: 13px;
+  border-radius: 0px !important;
 }
 
 @media screen and (min-device-width: 320px)
@@ -83,11 +85,13 @@ and (orientation: portrait) {
     font-size: 13px;
     position: relative;
     display: block;
+    border-radius: 0px !important;
   }
 
   .form-field {
     border-style: none;
     color: black;
+    border-radius: 0px !important;
     font-weight: normal;
     padding: 5px 8px;
     vertical-align: middle;
