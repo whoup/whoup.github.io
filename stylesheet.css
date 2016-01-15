@@ -74,7 +74,7 @@ and (orientation: portrait) {
   }
 }
 .left-margin {
-  margin-left: 10px;
+  margin-left: 13px;
 }
 @media only screen and (max-width: 736px) {
   .btn-form {
