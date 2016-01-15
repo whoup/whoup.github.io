@@ -81,7 +81,7 @@ and (orientation: portrait) {
     border-style: none;
     padding: 5px 8px 5px 8px;
     font-style: bold;
-    margin-top: 10px;
+    margin: 10px auto;
     font-size: 13px;
     position: relative;
     display: block;
@@ -95,7 +95,7 @@ and (orientation: portrait) {
     font-weight: normal;
     padding: 5px 8px;
     vertical-align: middle;
-    margin-top: 10px;
+    margin: 10px auto;
     font-size: 13px;
     position: relative;
     display: block;
