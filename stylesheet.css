@@ -73,18 +73,21 @@ and (orientation: portrait) {
     top: 15%;
   }
 }
+.left-margin {
+  margin-left: 10px;
+}
 @media only screen and (max-width: 736px) {
   .btn-form {
-    max-width: 50%;
     color: black;
     background-color: #eded00;
     border-style: none;
     padding: 5px 8px 5px 8px;
     font-style: bold;
     margin: 10px auto;
+    float: center;
     font-size: 13px;
-    position: relative;
     display: block;
+    float: center;
     border-radius: 0px !important;
   }
 
@@ -99,6 +102,9 @@ and (orientation: portrait) {
     font-size: 13px;
     position: relative;
     display: block;
+  }
+  .left-margin {
+    margin-left: auto;
   }
 }
 .bgimage{
