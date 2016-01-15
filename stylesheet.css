@@ -56,7 +56,6 @@ input[type=text], input[type=email]  {
   max-width: 50%;
   color: black;
   background-color: #eded00;
-  border-radius: 1px;
   border-style: none;
   padding: 5px 8px 5px 8px;
   font-style: bold;
@@ -77,13 +76,13 @@ and (orientation: portrait) {
     max-width: 50%;
     color: black;
     background-color: #eded00;
-    border-radius: 1px;
     border-style: none;
     padding: 5px 8px 5px 8px;
     font-style: bold;
     margin-top: 10px;
     font-size: 13px;
     position: relative;
+    display: block;
   }
 
   .form-field {
@@ -95,6 +94,7 @@ and (orientation: portrait) {
     margin-top: 10px;
     font-size: 13px;
     position: relative;
+    display: block;
   }
 }
 .bgimage{
