@@ -25,6 +25,9 @@ body {
 .form-wrapper {
   display: inline-block;
 }
+.success {
+  text-align: center;
+}
 
 .form-field {
   border-style: none;
