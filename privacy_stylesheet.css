@@ -1,0 +1,25 @@
+.specifics{
+  font-size:14px;
+  padding: 10px;
+  color: "#000000"
+}
+
+.overview{
+  font-size:14px;
+  padding: 0px;
+  color: "#000000"
+}
+
+.heading h1{
+  font-size:36px;
+  color: "#EDED00"
+}
+
+.heading p{
+  font-size:16px;
+  color: "#FFFFF"
+}
+
+.heading {
+  padding: 10px
+}
