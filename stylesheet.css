@@ -150,8 +150,9 @@ img {
 }
 
 
-
-
+.app-store-badge {
+  width: 160px;
+}
 #owl-img {
   -webkit-animation: jump 3s ease 0s infinite normal ;
   animation: jump 3s ease 0s infinite normal ;
